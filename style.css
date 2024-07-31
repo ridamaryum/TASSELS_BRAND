@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.icon{
+    color: black;
+    font-weight: bolder;
+}
+
+.icon i{
+    color: black;
+    padding-left: 20px;
+    font-size: larger;
+}
