@@ -10,7 +10,38 @@ body{
 }
 
 .icon i{
-    color: black;
+    color: #000000;
     padding-left: 20px;
     font-size: larger;
+    color: #000000;
+    padding-right: 5px;
 }
+
+.navbar-brand{
+    margin-left: 15px;
+}
+
+#navbarDropdown{
+    color: #000000;
+    padding-right: 30px;
+}
+
+
+/*#navbarDropdown::after{
+    content: '';
+    height: 1px;
+    width: 80%;
+    
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+#navbarDropdown:hover::after{
+    opacity: 1;
+}*/
+
