@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background-color: whitesmoke;
 }
 
 .icon{
@@ -52,9 +53,14 @@ body{
     margin-top: 30px;
     
 }
-/*.box{
-    border: 2px solid black;
-    height: 450px;
-    width: 300px;
-    background-color: white;
+.heading{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bolder;   
+    font: 32px;
+}
+
+.heading-2{
+    color: #545454;
+    font-size: 16px;
 }
