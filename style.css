@@ -27,7 +27,25 @@ body{
     padding-right: 30px;
 }
 
+.carousel-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
+@media (max-width:900px){
+    .carousel-inner{
+        width: 30%;
+        height: 50%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:450px){
+.carousel-inner{
+    
+}
+}
 /*#navbarDropdown::after{
     content: '';
     height: 1px;
@@ -51,15 +69,27 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
     
+}
+
+@media (max-width){
+    .shop-section{
+        border: #000000;
+    }
 }
 .heading{
     text-align: center;
     margin-top: 60px;
     font-weight: bolder;   
-    font: 32px;
+    font-size: 32px;
 }
 
+.image{
+    height: 100%;
+    width: 100%;
+}
 .heading-2{
     color: #545454;
     font-size: 16px;
@@ -120,13 +150,17 @@ body{
     gap: 20px;
 }
 
+.boxed{
+    height: 400px;
+    
+}
 
 .hover-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    width: 130px;
     border-radius: 5px;
     margin: 0;
     font-size: large;
@@ -141,4 +175,17 @@ body{
 .hover-div:hover {
     background-color: black;
     color: white;
+}
+
+
+.Container{
+    border: 0.5px solid lightgrey;
+    width: 420px;
+    height: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
