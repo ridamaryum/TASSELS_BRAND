@@ -5,19 +5,6 @@ body{
     background-color: whitesmoke;
 }
 
-.icon{
-    color: black;
-    font-weight: bolder;
-}
-
-.icon i{
-    color: #000000;
-    padding-left: 20px;
-    font-size: larger;
-    color: #000000;
-    padding-right: 5px;
-}
-
 .navbar-brand{
     margin-left: 15px;
 }
@@ -33,38 +20,6 @@ body{
     object-fit: cover;
 }
 
-@media (max-width:900px){
-    .carousel-inner{
-        width: 30%;
-        height: 50%;
-        object-fit: contain;
-    }
-}
-
-@media (max-width:450px){
-.carousel-inner{
-    
-}
-}
-/*#navbarDropdown::after{
-    content: '';
-    height: 1px;
-    width: 80%;
-    
-    background: black;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    opacity: 0;
-    transition: all 0.2s;
-    pointer-events: none;
-}
-
-#navbarDropdown:hover::after{
-    opacity: 1;
-}*/
-
-
 .shop-section{
     display: flex;
     justify-content: space-evenly;
@@ -74,11 +29,6 @@ body{
     
 }
 
-@media (max-width){
-    .shop-section{
-        border: #000000;
-    }
-}
 .heading{
     text-align: center;
     margin-top: 60px;
@@ -90,6 +40,7 @@ body{
     height: 100%;
     width: 100%;
 }
+
 .heading-2{
     color: #545454;
     font-size: 16px;
@@ -142,50 +93,140 @@ body{
     margin-top: 80px;
 }
 
-
 .shop-section2{
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-.boxed{
-    height: 400px;
-    
-}
-
-.hover-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    margin: 0;
-    font-size: large;
-    font-weight: lighter;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.hover-div:hover {
-    background-color: black;
-    color: white;
-}
-
-
-.Container{
-    border: 0.5px solid lightgrey;
-    width: 420px;
-    height: 150px;
+.shop-section3{
+    margin-top: 60px;
 }
 
 .container{
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    border: #000000;
+}
+
+.Container h3{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #000000;
+}
+
+.Container p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.container-1{
+    border: #000000;
+}
+
+.information{
+    margin-top: 80px;
+}
+
+.heading-4{
+    margin-top: 40px;
+}
+
+.heading-4 h3{
+    font-weight: lighter;
+}
+
+.paragraph1 h6{
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.paragraph1 h6 p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.heading-5{
+    margin-top: 30px;
+}
+
+.heading-5 h3{
+    font-weight: lighter;
+}
+
+.paragraph2 h6{
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.paragraph2 h6 p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.heading-6{
+    margin-top: 30px;
+}
+
+.heading-6 h3{
+    font-weight: lighter;
+}
+
+.paragraph3 h6{
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.paragraph3 h6 p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.heading-7{
+    margin-top: 30px;
+}
+
+.heading-7 h3{
+    font-weight: lighter;
+}
+
+.paragraph4 h6{
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.paragraph4 h6 p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.heading-8{
+    margin-top: 70px;
+}
+
+.heading-8 h1{
+    font-weight: lighter;
+}
+
+.paragraph5 h6{
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.paragraph5 h6 p{
+    padding-right: 40px;
+    padding-left: 40px;
 }
